@@ -1,7 +1,7 @@
 	<header class="header">
 		<div class="wrapper cf">
 			<div class="logo">
-				<a href="/bs/"><img src="/bs/images/logo.jpg" alt="Brad Sawicki" /></a>
+				<a href="/"><img src="/images/logo.jpg" alt="Brad Sawicki" /></a>
 				<h1>Brad Sawicki</h1>
 			</div>
 			<nav>

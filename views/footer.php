@@ -43,6 +43,6 @@
 <script src="css/fonts/ss-social.js"></script>
 <script src="css/fonts/ss-standard.js"></script>
 -->
-<script src="/bs/js/scripts.js"></script>
+<script src="/js/scripts.js"></script>
 </body>
 </html>
