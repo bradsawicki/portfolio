@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0;	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } ol, ul { list-style: none; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, .nav, output, ruby, section, summary, time, mark, audio, video { margin: 0;	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, .nav, section { display: block; } ol, ul { list-style: none; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; }
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } img { max-width: 100%; height: auto; vertical-align: middle; }
 
 /*
@@ -199,23 +199,23 @@ a:hover {
 	line-height: 96px;
 }
 
-nav {
+.nav {
 	position: relative;
 	float: right;
 }
 
-nav a {
+.nav a {
 	margin-left: 4em;
 	color: #353430;
 	font-size: 1.125em;
 	line-height: 5.333em;
 }
 
-nav a:first-of-type {
+.nav a:first-of-type {
 	margin-left: 0;
 }
 
-nav div {
+.nav div {
 	position: absolute;
 	top: 2em;
 	right: 6em;
@@ -223,6 +223,8 @@ nav div {
 	height: 2em;
 	background: #333;
 	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 
 
@@ -541,8 +543,8 @@ footer li {
 
 @media all and (max-width: 500px) {
 	.logo { width: 5em; }
-	nav a { margin-left: 3em; line-height: 4.444em; }
-	nav div { top: 1.5em; right: 5.5em; }
+	.nav a { margin-left: 3em; line-height: 4.444em; }
+	.nav div { top: 1.5em; right: 5.5em; }
 	.hero h1 { font-size: 3em; }
 	.hero h2 { font-size: 1.75em; }
 	.thumbs li { width: 100%; margin: 0 0 1.75em 0; }

@@ -4,7 +4,7 @@
 				<img src="/images/logo.jpg" alt="Brad Sawicki" />
 				<h1>Brad Sawicki</h1>
 			</a>
-			<nav>
+			<nav class="nav">
 				<div></div>
 				<a href="/#bottom">Profile</a>
 				<a href="" class="contact">Contact</a>
