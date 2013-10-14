@@ -176,8 +176,13 @@ a:hover {
 ========================================================**/
 
 .logo {
-	float: left;
 	position: relative;
+	float: left;
+	border: none;
+}
+
+.logo:hover {
+    border: none;
 }
 
 .logo img {
@@ -227,7 +232,7 @@ nav div {
 
 .modal {
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 999;
@@ -240,7 +245,7 @@ nav div {
 }
 
 .modal-bg {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -319,6 +324,9 @@ button:hover {
 	background: #a4301d;
 }
 
+input.error {
+    border-color: #ff4610;
+}
 
 /**========================================================
     HERO
@@ -527,8 +535,14 @@ footer li {
 	.home .bottom .wrapper { max-width: 100%; margin: 0 auto; padding: 0.5em 5%; }
 }
 
+@media all and (max-width: 620px) {
+    .modal .wrapper { margin-top: 1em; padding: 1.25em 1em; }
+}
+
 @media all and (max-width: 500px) {
 	.logo { width: 5em; }
+	nav a { margin-left: 3em; line-height: 4.444em; }
+	nav div { top: 1.5em; right: 5.5em; }
 	.hero h1 { font-size: 3em; }
 	.hero h2 { font-size: 1.75em; }
 	.thumbs li { width: 100%; margin: 0 0 1.75em 0; }
@@ -536,4 +550,8 @@ footer li {
 	.thumbs li:nth-child(2n+1) { clear: none; }
 	.thumbs p { margin-bottom: 0; }
 	.thumbs img { float: left; width: 42%; margin: 0 8% 0 0; }
+}
+
+@media all and (max-height: 658px) {
+    .modal { position: absolute; }
 }
