@@ -17,34 +17,34 @@
 		<div class="wrapper cf">
 			<ul class="thumbs">
 				<li><a href="/project/cappellos/">
-					<img src="images/thumb_cappellos.jpg" alt="Cappello's Gluten Free" />
+					<img src="images/thumb-cappellos.png" alt="Cappello's Gluten Free" />
 					<h4>Cappello's Gluten Free</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
 				<li><a href="/argos-law/">
-					<img src="images/thumb_argos.jpg" alt="Argos Law" />
+					<img src="images/thumb-argos.png" alt="Argos Law" />
 					<h4>Argos Law</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
-				<li><a href="/gibon-shop/">
-					<img src="images/thumb_gibson.jpg" alt="The Gibons Shop" />
-					<h4>The Gibson Shop</h4>
-					<p>Design / Development</p>
+				<li><a href="/fourkites/">
+					<img src="images/thumb-fourkites.png" alt="Fourkites" />
+					<h4>Fourkites</h4>
+					<p>Responsive Development</p>
 				</a></li>
 				<li><a href="/bahrain-center-human-rights/">
-					<img src="images/thumb_bchr.png" alt="Bahrain Center for Human Rights" />
+					<img src="images/thumb-bahrain.png" alt="Bahrain Center for Human Rights" />
 					<h4>Bahrain Center for Human Rights</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
+				<li><a href="/gibon-shop/">
+					<img src="images/thumb-gibson.png" alt="The Gibons Shop" />
+					<h4>The Gibson Shop</h4>
+					<p>Design / Development</p>
+				</a></li>
 				<li><a href="/emprego-ligado/">
-					<img src="images/thumb_emprego.png" alt="Emprego Ligado" />
+					<img src="images/thumb-emprego.png" alt="Emprego Ligado" />
 					<h4>Emprego Ligado</h4>
 					<p>Design / Front-End Development</p>
-				</a></li>
-				<li><a href="/kurdish-rights/">
-					<img src="images/thumb_kurd.jpg" alt="Kurdish Rights" />
-					<h4>Kurdish Rights</h4>
-					<p>Development</p>
 				</a></li>
 			</ul>
 		</div>
