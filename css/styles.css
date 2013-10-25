@@ -458,16 +458,23 @@ input.error {
 
 .bottom p {
 	margin-bottom: 0;
+	font-size: 1.5em;
 }
 
-.home .bottom {
+.bottom .btn {
+	margin-left: 1.5em;
+	font-size: 1em;
+}
+
+.about {
+	padding: 2.625em 0;
 	background: transparent;
 	color: #fff;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
 	text-align: left;
 }
 
-.home .bottom .wrapper {
+.about .wrapper {
 	max-width: 35.625em; /* 570 */
 	margin: 2.625em auto;
 	padding: 0.5em 2.5%;
@@ -475,22 +482,14 @@ input.error {
 	border-radius: 3px;
 }
 
-.home .bottom h3 {
+.about h3 {
 	margin: 0.5em 0; 
 }
 
-.home .bottom p {
+.about p {
 	margin-bottom: 1em;
 }
 
-.project .bottom p {
-	font-size: 1.5em;
-}
-
-.project .bottom .btn {
-	margin-left: 1.5em;
-	font-size: 1em;
-}
 
 
 /**========================================================

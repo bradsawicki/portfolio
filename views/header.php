@@ -6,7 +6,7 @@
 			</a>
 			<nav class="nav">
 				<div></div>
-				<a href="/#bottom">Profile</a>
+				<a href="/#about">About</a>
 				<a href="" class="contact">Contact</a>
 			</nav>
 		</div>
