@@ -1,9 +1,8 @@
-<?php include 'views/head-1.php'; ?>
-<title>Chicago Web Design | Chicago Web Developer | Brad Sawicki</title>
-<?php include 'views/head-2.php'; ?>
-<body class="home">
+<?php $title_tag = "Chicago Web Design | Chicago Web Developer"; ?>
+<?php $body_class = "home"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/views/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
 <div class="bg"></div>
-<?php include 'views/header.php'; ?>
 
 	<section id="hero" class="hero">
 		<div class="wrapper cf">

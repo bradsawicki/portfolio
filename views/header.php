@@ -1,3 +1,4 @@
+<body class="<?php echo($body_class); ?>">
 	<header class="header">
 		<div class="wrapper cf">
 			<a href="/" class="logo">
