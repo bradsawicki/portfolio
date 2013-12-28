@@ -147,23 +147,12 @@ a:hover {
 	border-bottom: none;
 }
 
-.btn-blue {
-	display: inline-block;
-	padding: 0.6em 1em;
+.blue {
 	background: #007397;
-	border-bottom: none;
-	border-radius: 0.25em;
-	color: #fff;
-	font-size: 0.938em;
-	line-height: 1em;
-	font-weight: 700;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-	text-transform: uppercase;
 }
 
-.btn-blue:hover {
-	color: #fff;
-	border-bottom: none;
+.blue:hover {
+	background: #005b77;
 }
 
 .ctr {
@@ -399,50 +388,91 @@ input.error {
 .thumbs p {
 	color: #71716e;
 	font-size: 0.938em;
-	font-style: italic;
+/* 	font-style: italic; */
 }
 
 /**========================================================
     PROJECTS
 ========================================================**/
 
-.top h1 {
-	margin-bottom: 0.5em;
-	font-size: 4em;
+.top .wrapper {
+    position: relative;
 }
 
+.top .title {
+    position: relative;
+	margin-bottom: 1em;
+	font-size: 4.5em;
+	text-align: center;
+}
+
+.top .title:after {
+    content: "";
+    position: absolute;
+    bottom: -0.5em;
+    left: 50%;
+    width: 350px;
+    height: 1px;
+    margin-left: -175px;
+    background: #3a9cbd;
+}
+
+.bchr .top .title {
+    max-width: 800px;
+    margin: 0 auto 1em;
+}
+
+
 .top .content {
+    max-width: 740px;
+    margin: 0 auto 3em;
+/*
 	float: left;
 	width: 47.5%;
-	padding-right: 5%;
+	padding-right: 2%;
+*/
+}
+
+.top .content p {
+    font-size: 1.25em;
 }
 
 .top .pic {
-	float: right;
-	width: 47.5%;
+/*
+    position: absolute;
+    right: 0;
+    bottom: 0;
+*/
+    max-width: 940px;
+	margin: 0 auto 3em;
 }
 
-.project .main p {
-	text-align: center;
-	font-size: 2.25em;
-}
-
-.project .main p .btn {
-	font-size: 0.75em;
-}
-
-.description a {
+.project .top a {
 	color: #fff;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #3a9cbd;
 }
 
-.description a:hover {
+.project .top a:hover {
 	border-color: #007397;
 }
 
-.role {
-	font-size: 1em;
-	font-style: italic;
+.role, .visit {
+    text-align: center;
+}
+
+.role p {
+    font-size: 0.938em;
+/*     font-style: italic; */
+}
+
+.visit {
+    margin-bottom: 3em;
+    font-size: 1.25em;
+}
+
+.visit .btn {
+    font-size: 1.25em;
+    padding: 0.6em 1em 0.5em;
 }
 
 
@@ -458,7 +488,7 @@ input.error {
 
 .bottom p {
 	margin-bottom: 0;
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 .bottom .btn {

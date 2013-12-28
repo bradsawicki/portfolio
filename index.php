@@ -20,27 +20,27 @@
 					<h4>Cappello's Gluten Free</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
-				<li><a href="/argos-law/">
+				<li><a href="/project/argos-law/">
 					<img src="images/thumb-argos.png" alt="Argos Law" />
 					<h4>Argos Law</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
-				<li><a href="/fourkites/">
+				<li><a href="/project/fourkites/">
 					<img src="images/thumb-fourkites.png" alt="Fourkites" />
 					<h4>Fourkites</h4>
 					<p>Responsive Development</p>
 				</a></li>
-				<li><a href="/bahrain-center-human-rights/">
+				<li><a href="/project/bahrain-center-human-rights/">
 					<img src="images/thumb-bahrain.png" alt="Bahrain Center for Human Rights" />
 					<h4>Bahrain Center for Human Rights</h4>
 					<p>Responsive Design / Development</p>
 				</a></li>
-				<li><a href="/gibon-shop/">
+				<li><a href="/project/gibon-shop/">
 					<img src="images/thumb-gibson.png" alt="The Gibons Shop" />
 					<h4>The Gibson Shop</h4>
 					<p>Design / Development</p>
 				</a></li>
-				<li><a href="/emprego-ligado/">
+				<li><a href="/project/emprego-ligado/">
 					<img src="images/thumb-emprego.png" alt="Emprego Ligado" />
 					<h4>Emprego Ligado</h4>
 					<p>Design / Front-End Development</p>
