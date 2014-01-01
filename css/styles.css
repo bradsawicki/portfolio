@@ -18,7 +18,7 @@ body {
 
 .bg {
 	position: fixed;
-	top: 0;
+	top: -12px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -31,7 +31,7 @@ body {
 }
 
 .wrapper {
-	width: 94%;
+	width: 92%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -191,7 +191,6 @@ a:hover {
 
 .nav a {
 	margin-left: 62px;
-	color: #353430;
 	font-size: 20px;
 	line-height: 80px;
 }
@@ -268,6 +267,10 @@ a:hover {
 .modal p {
     margin-bottom: 16px;
     font-size: 18px;
+}
+
+.modal a {
+	border-bottom: 1px solid #3a9cbd;
 }
 
 .form-item {
@@ -425,11 +428,24 @@ input.error {
 .top .content {
     max-width: 780px;
     margin: 0 auto 3em;
+    padding: 0 2.5%;
 }
 
 .top .pic {
+    position: relative;
     max-width: 990px;
 	margin: 0 auto 3em;
+}
+
+.top .pic:after {
+    content: "";
+    position: absolute;
+    top: 98%;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    z-index: -1;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
 }
 
 .project .top a {

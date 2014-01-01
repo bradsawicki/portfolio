@@ -35,16 +35,23 @@
 					<h4>Bahrain Center for Human Rights</h4>
 					<p>UI / UX, Responsive Web Design, Drupal Development</p>
 				</a></li>
+				<li><a href="/project/the-everygirl/">
+					<img src="images/thumb-everygirl.png" alt="The Everygirl" />
+					<h4>The Everygirl</h4>
+					<p>Responsive Front-End Development</p>
+				</a></li>
 				<li><a href="/project/gibon-shop/">
 					<img src="images/thumb-gibson.png" alt="The Gibons Shop" />
 					<h4>The Gibson Shop</h4>
-					<p>Web Design / Drupal Development</p>
+					<p>Branding / Web Design / Drupal Development</p>
 				</a></li>
+<!--
 				<li><a href="/project/emprego-ligado/">
 					<img src="images/thumb-emprego.png" alt="Emprego Ligado" />
 					<h4>Emprego Ligado</h4>
 					<p>Web Design / Front-End Development</p>
 				</a></li>
+-->
 			</ul>
 		</div>
 	</section>
