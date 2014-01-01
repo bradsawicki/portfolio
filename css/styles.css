@@ -9,7 +9,7 @@ red: ff4610
 body {
 	background: #efefef;
 	color: #353430;
-	font: 400 1em/1.5em  "elena-web-basic", Georgia, serif;
+	font: 400 1em/1.5em 'elena-web-basic', Georgia, serif;
 }
 
 /**========================================================
@@ -38,31 +38,28 @@ body {
 
 .header {
 	background: #fff;
-	padding: 0.75em 0;
+	padding: 12px 0;
 }
 
 .hero {
-	padding: 5.25em 0;
+	padding: 96px 0 104px;
 	color: #fff;
 	background: transparent;
 }
 
 .top {
 	padding-top: 2.625em;
-	background: #4eaac5;
 	background: #60b7d7;
 	box-shadow: inset 0 0.5em 1em rgba(0,0,0,0.1);
 	color: #fff;
 }
 
 .main {
-	padding: 3em 0 2em;
-	background: #efefef;
+	padding: 48px 0 32px;
 	background: #fff;
 }
 
 footer {
-	background: #fdc210;
 	background: #efefef;
 	box-shadow: inset 0 0 15px rgba(0,0,0,0.15);
 	color: #252525;
@@ -70,7 +67,7 @@ footer {
 }
 
 footer .wrapper {
-	padding: 2.625em 0;
+	padding: 32px 0;
 }
 
 .left {	float: left; }
@@ -88,27 +85,27 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-	font: 900 4.5em/1em "maple-web";
+    margin-bottom: 16px;
+	font: 900 68px/1em 'maple-web', 'Helvetica', arial, sans-serif;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 30px;
 }
 
 h3 {
-	font: 900 2.25em/1em "maple-web";
+	font: 900 30px/1em 'maple-web', 'Helvetica', arial, sans-serif;
 }
 
 h4 {
-	margin-bottom: 0.25em;
-	font-size: 1.5em;
+	margin-bottom: 4px;
+	font-size: 22px;
 }
 
 p {
-	margin-bottom: 0.667em;
-	margin-bottom: 1.556em;
-	font-size: 1.125em;
-	line-height: 1.556em;
+	margin-bottom: 32px;
+	font-size: 20px;
+	line-height: 1.6em
 }
 
 a {
@@ -128,17 +125,15 @@ a:hover {
 
 .btn {
 	display: inline-block;
-	padding: 0.6em 0.8em 0.5em;
+	padding: 12px 22px;
 	border-bottom: none;
-	border-radius: 0.25em;
+	border-radius: 5px;
 	color: #fff;
-	font-family: "maple-web";
-	font-size: 1.6em;
+	font-family: 'maple-web', 'Helvetica', arial, sans-serif;
+	font-size: 30px;
 	line-height: 1em;
 	font-weight: 500;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-	text-transform: uppercase;
-	background: #FDC210;
 	background: #f15b42;
 }
 
@@ -179,14 +174,14 @@ a:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 6em;
-	margin-right: 1.5em;
+	width: 80px;
 }
 
 .logo h1 {
-	padding-left: 3em;
-	font-size: 2.5em;
-	line-height: 96px;
+    margin-bottom: 0;
+	padding-left: 100px;
+	font-size: 40px;
+	line-height: 80px;
 }
 
 .nav {
@@ -195,10 +190,10 @@ a:hover {
 }
 
 .nav a {
-	margin-left: 4em;
+	margin-left: 62px;
 	color: #353430;
-	font-size: 1.125em;
-	line-height: 5.333em;
+	font-size: 20px;
+	line-height: 80px;
 }
 
 .nav a:first-of-type {
@@ -207,10 +202,10 @@ a:hover {
 
 .nav div {
 	position: absolute;
-	top: 2em;
-	right: 6em;
+	top: 26px;
+	right: 96px;
 	width: 1px;
-	height: 2em;
+	height: 30px;
 	background: #333;
 	-moz-transform: rotate(30deg);
 	-webkit-transform: rotate(30deg);
@@ -248,9 +243,9 @@ a:hover {
 .modal .wrapper {
 	position: relative;
 	z-index: 99;
-	max-width: 35.625em; /* 570 */
+	max-width: 570px;
 	margin-top: 5%;
-	padding: 1.75em 2.5%;
+	padding: 32px 2.5%;
 	background: #fff;
 	border-radius: 3px;
 }
@@ -270,6 +265,11 @@ a:hover {
 	margin-bottom: 0.25em;
 }
 
+.modal p {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
 .form-item {
 	margin-bottom: 0.75em;
 }
@@ -277,6 +277,7 @@ a:hover {
 label {
 	display: block;
 	font-weight: 700;
+	line-height: 1.6em;
 }
 
 input[type="text"],input[type="email"],textarea {
@@ -303,9 +304,8 @@ button {
 	border: none;
 	border-radius: 5px;
 	color: #fff;
-	font: 700 1.188em/1.5em  "elena-web-basic", Georgia, serif;
+	font: 500 20px/1.5em 'maple-web', 'Helvetica', arial, sans-serif;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-	text-transform: uppercase;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
 	-ms-transition: all 0.15s ease-in-out;
@@ -320,6 +320,7 @@ input.error {
     border-color: #ff4610;
 }
 
+
 /**========================================================
     HERO
 ========================================================**/
@@ -330,12 +331,11 @@ input.error {
 
 .hero h1 {
 	margin-bottom: 0.25em;
-	font-size: 4em;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
 
 .hero h2 {
-	margin-bottom: 1em;
+/* 	margin-bottom: 1em; */
 	font-weight: 400;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
 }
@@ -356,9 +356,9 @@ input.error {
 
 .thumbs li {
 	float: left;
-	width: 28%;
 	width: 30%;
 	margin: 1.5em 5% 1.5em 0;
+	text-align: center;
 }
 
 .thumbs li:nth-child(3n) {
@@ -382,14 +382,10 @@ input.error {
 	margin-bottom: 1em;
 }
 
-.thumbs h4 {
-	font-size: 1.188em;
-}
-
 .thumbs p {
 	color: #71716e;
-	font-size: 0.938em;
-/* 	font-style: italic; */
+	font-size: 17px;
+	line-height: 1.2em
 }
 
 /**========================================================
@@ -403,10 +399,11 @@ input.error {
 .top .title {
     position: relative;
 	margin-bottom: 1em;
-	font-size: 4.5em;
+	margin-bottom: 16px;
 	text-align: center;
 }
 
+/*
 .top .title:after {
     content: "";
     position: absolute;
@@ -417,34 +414,21 @@ input.error {
     margin-left: -175px;
     background: #3a9cbd;
 }
+*/
 
 .bchr .top .title {
     max-width: 800px;
-    margin: 0 auto 1em;
+    margin: 0 auto 16px;
 }
 
 
 .top .content {
-    max-width: 740px;
+    max-width: 780px;
     margin: 0 auto 3em;
-/*
-	float: left;
-	width: 47.5%;
-	padding-right: 2%;
-*/
-}
-
-.top .content p {
-    font-size: 1.25em;
 }
 
 .top .pic {
-/*
-    position: absolute;
-    right: 0;
-    bottom: 0;
-*/
-    max-width: 940px;
+    max-width: 990px;
 	margin: 0 auto 3em;
 }
 
@@ -461,14 +445,13 @@ input.error {
     text-align: center;
 }
 
-.role p {
-    font-size: 0.938em;
-/*     font-style: italic; */
+.role {
+    color: #cce3ea;
 }
 
 .visit {
-    margin-bottom: 3em;
-    font-size: 1.25em;
+    margin-bottom: 2em;
+    font-size: 30px;
 }
 
 .visit .btn {
@@ -482,19 +465,19 @@ input.error {
 ========================================================**/
 
 .bottom {
-	padding: 2.625em 0;
+	padding: 32px 0;
 	background: #fff;
 	text-align: center;
 }
 
 .bottom p {
 	margin-bottom: 0;
-	font-size: 1.75em;
+	font-size: 36px;
 }
 
 .bottom .btn {
-	margin-left: 1.5em;
-	font-size: 0.9em;
+	margin-left: 32px;
+	font-size: 36px;
 }
 
 .about {
@@ -506,7 +489,7 @@ input.error {
 }
 
 .about .wrapper {
-	max-width: 35.625em; /* 570 */
+	max-width: 570px;
 	margin: 2.625em auto;
 	padding: 0.5em 2.5%;
 	background: rgba(0,0,0,0.6);
@@ -514,7 +497,8 @@ input.error {
 }
 
 .about h3 {
-	margin: 0.5em 0; 
+	margin: 0.5em 0;
+	font-size: 36px;
 }
 
 .about p {

@@ -8,7 +8,7 @@
 		<div class="wrapper cf">
 			<h1>Web Design & Development</h1>
 			<h2>Crafting stellar websites and applications for all devices.</h2>
-			<p><a href="#" class="btn contact">Contact Me</a></p>
+<!-- 			<p><a href="#" class="btn contact">Contact Me</a></p> -->
 		</div>
 	</section>
 
@@ -18,32 +18,32 @@
 				<li><a href="/project/cappellos/">
 					<img src="images/thumb-cappellos.png" alt="Cappello's Gluten Free" />
 					<h4>Cappello's Gluten Free</h4>
-					<p>Responsive Design / Development</p>
+					<p>UI / UX, Responsive Web Design, Drupal Development</p>
 				</a></li>
 				<li><a href="/project/argos-law/">
 					<img src="images/thumb-argos.png" alt="Argos Law" />
 					<h4>Argos Law</h4>
-					<p>Responsive Design / Development</p>
+					<p>UI / UX, Responsive Web Design, Drupal Development</p>
 				</a></li>
 				<li><a href="/project/fourkites/">
 					<img src="images/thumb-fourkites.png" alt="Fourkites" />
 					<h4>Fourkites</h4>
-					<p>Responsive Development</p>
+					<p>Responsive Front-End Development</p>
 				</a></li>
 				<li><a href="/project/bahrain-center-human-rights/">
 					<img src="images/thumb-bahrain.png" alt="Bahrain Center for Human Rights" />
 					<h4>Bahrain Center for Human Rights</h4>
-					<p>Responsive Design / Development</p>
+					<p>UI / UX, Responsive Web Design, Drupal Development</p>
 				</a></li>
 				<li><a href="/project/gibon-shop/">
 					<img src="images/thumb-gibson.png" alt="The Gibons Shop" />
 					<h4>The Gibson Shop</h4>
-					<p>Design / Development</p>
+					<p>Web Design / Drupal Development</p>
 				</a></li>
 				<li><a href="/project/emprego-ligado/">
 					<img src="images/thumb-emprego.png" alt="Emprego Ligado" />
 					<h4>Emprego Ligado</h4>
-					<p>Design / Front-End Development</p>
+					<p>Web Design / Front-End Development</p>
 				</a></li>
 			</ul>
 		</div>
@@ -59,5 +59,4 @@
 	</section>
 
 <?php include 'views/bottom.php'; ?>
-
 <?php include 'views/footer.php'; ?>

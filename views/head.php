@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Brad Sawick is a web designer and web developer located in Chicago.">
 	<title><?php echo($title_tag); ?> | Brad Sawicki</title>
 	<link href="/css/fonts/icons.css" rel="stylesheet" media="all">
 	<link href="/css/styles.css" rel="stylesheet" media="all">
