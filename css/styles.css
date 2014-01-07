@@ -381,7 +381,7 @@ input.error {
 	border: none;
 }
 
-.thumbs img {
+.thumbs .thumb {
 	margin-bottom: 1em;
 }
 
@@ -507,7 +507,7 @@ input.error {
 .about .wrapper {
 	max-width: 570px;
 	margin: 2.625em auto;
-	padding: 0.5em 2.5%;
+	padding: 0.5em 32px;
 	background: rgba(0,0,0,0.6);
 	border-radius: 3px;
 }
@@ -528,10 +528,12 @@ input.error {
 ========================================================**/
 
 footer p {
+    color: #898989;
 	margin-bottom: 0.875em;
 }
 
 footer a {
+    color: #898989;
 	border: none;
 }
 
@@ -554,34 +556,46 @@ footer li {
 /** MEDIA QUERIES
 ========================================================****/
 
-@media all and (max-width: 700px) {
-	.logo { width: 6em; }
-	.logo img { position: static; top: auto; left: auto; width: 100%; }
-	.logo h1 { display: none; }
-	.hero { padding: 2.625em 0; }
+@media all and (max-width: 800px) {
+	.hero h2 { padding: 0 10%; line-height: 1.2em; }
 	.thumbs li { width: 47.5%; margin: 0 5% 0.75em 0; }
 	.thumbs li:nth-child(3n) { margin-right: 5%; }
 	.thumbs li:nth-child(2n) { margin-right: 0; }
 	.thumbs li:nth-child(3n+1) { clear: none; }
 	.thumbs li:nth-child(2n+1) { clear: left; }
+}
+
+@media all and (max-width: 700px) {
+	.logo { width: auto; }
+	.logo img { position: static; top: auto; left: auto; width: 64px; }
+	.logo h1 { display: none; }
+	.nav a { font-size: 18px; line-height: 64px; }
+	.nav div { top: 18px; right: 90px; }
+	.hero { padding: 2.625em 0; }
 	.home .bottom .wrapper { max-width: 100%; margin: 0 auto; padding: 0.5em 5%; }
 }
 
 @media all and (max-width: 620px) {
+    .bg { background-size: cover; top: 50px }
     .modal .wrapper { margin-top: 1em; padding: 1.25em 1em; }
+	.hero h1 { font-size: 48px; }
+	.hero h2 { font-size: 27px; }
 }
 
 @media all and (max-width: 500px) {
+    .hero { padding: 32px 0; }
 	.logo { width: 5em; }
-	.nav a { margin-left: 3em; line-height: 4.444em; }
-	.nav div { top: 1.5em; right: 5.5em; }
-	.hero h1 { font-size: 3em; }
-	.hero h2 { font-size: 1.75em; }
-	.thumbs li { width: 100%; margin: 0 0 1.75em 0; }
+	.thumbs li { width: 100%; margin: 0 0 1.25em 0; }
 	.thumbs li:nth-child(3n) { margin-right: 0; }
 	.thumbs li:nth-child(2n+1) { clear: none; }
+	.thumbs li:last-child { margin-bottom: 0; }
+/*
 	.thumbs p { margin-bottom: 0; }
 	.thumbs img { float: left; width: 42%; margin: 0 8% 0 0; }
+*/
+    .thumbs .thumb { max-width: 360px; margin: 0 auto 1em; padding: 0 5%; }
+	.hero h1 { font-size: 40px; }
+	.hero h2 { font-size: 22px; padding: 0 5%; }
 }
 
 @media all and (max-height: 658px) {
