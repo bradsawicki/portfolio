@@ -3,16 +3,20 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/head.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
 	
-	<section class="top">
+	<section class="main">
 		<div class="wrapper cf">
 			
 			<h1 class="title">Cappello's Gluten Free</h1>
 			<p class="role">UI / UX, Responsive Web Design, Drupal Development</p>
-			<div class="content">
-				<p class="description">Cappello's is a gluten free / grain free company located in Denver. The initial design of the site aimed to express their unique and edgey brand, but as online sales began to increase, a focus on creating a user friendly purchasing experience emerged. In the fall of 2013, I completely updated the sites interface and design, positioning their products directly on the home page and giving users easy access to important food information on their products pages. In partnership with our good friends at <a href="" target="_blank">bxCreative</a>, we used the Drupal Commerce module to streamline UPS shipping integration and provide Cappello's easy management of shipping and sales data.</p>
-			</div>
 			<div class="pic"><img src="/images/pic-desktop-cappellos.jpg" alt="Cappellos" /></div>
+			<div class="content">
+				<p class="description">Cappello's is a gluten free, grain free gourmet food company located in Denver. The initial design of the site aimed primarily to express the company’s unique and edgy brand, but as online traffic and sales began to increase, a need emerged to create a more user-friendly purchasing experience. In the fall of 2013, I completely updated the site’s interface and design, positioning their products directly on the homepage and providing users with easy access to important food information on the products pages. In partnership with our good friends at bxCreative, we used the Drupal Commerce module to streamline UPS shipping integration and provide Cappello's with easy management of shipping and sales data.</p>
+			</div>
 			<div class="visit"><a href="https://cappellosglutenfree.com" target="_blank">Visit this site</a></div>
+			<div class="project-nav">
+			    <a href="" class="arrow prev"></a>
+			    <a href="" class="arrow next"></a>
+			</div>
 			
 		</div>
 	</section>

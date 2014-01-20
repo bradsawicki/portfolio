@@ -12,7 +12,7 @@
 		</div>
 	</section>
 
-	<section id="main" class="main">
+	<section id="grid" class="grid">
 		<div class="wrapper cf">
 			<ul class="thumbs">
 				<li><a href="/project/cappellos/">
