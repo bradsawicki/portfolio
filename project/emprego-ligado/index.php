@@ -13,7 +13,7 @@
 				<p class="description">Emprego Ligado is a Brazilian start-up connecting employers and potential employees through the web and SMS. I designed a clean, intuitive interface catered to users of all technical backgrounds, streamlining the experience to make it easy for potential employees to sign up and create a profile. The employer dashboard was designed for easy management of potential candidates and optimized communication through SMS, which was powered by the web application. Back-end development of this application was handled by my friends at bxCreative.</p>
 			</div>
 			<div class="project-nav">
-			    <a href="/project/bahrain-center-human-rights/" class="arrow prev"><img src="/images/arrows.svg" /></a>
+			    <a href="/project/bahrain-center-human-rights/" class="arrow prev"></a>
 			    <a href="http://empregoligado.com.br" target="_blank" class="visit">Visit this site</a>
 			    <a href="/project/cappellos/" class="arrow next"></a>
 			</div>
