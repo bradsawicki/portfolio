@@ -12,10 +12,10 @@
 			<div class="content">
 				<p class="description">The Gibson Shop deals Gibson guitars online and is the sister company of The Fender Reissue Shop. After I completed work on the Fender Reissue Shop’s site, they came to me in need of branding and a new site for The Gibson Shop that would allow for easy inventory management. To achieve this, Drupal was used for content management, giving them complete control of their site.</p>
 			</div>
-			<div class="visit"><a href="http://thegibsonshop.com" target="_blank">Visit this site</a></div>
 			<div class="project-nav">
-			    <a href="" class="arrow prev"></a>
-			    <a href="" class="arrow next"></a>
+			    <a href="/project/cappellos/" class="arrow prev"></a>
+			    <a href="http://thegibsonshop.com" target="_blank" class="visit">Visit this site</a>
+			    <a href="/project/fourkites/" class="arrow next"></a>
 			</div>
 			
 		</div>

@@ -14,8 +14,9 @@
 			</div>
 			<div class="visit"><a href="http://theverygirl.com" target="_blank">Visit this site</a></div>
 			<div class="project-nav">
-			    <a href="" class="arrow prev"></a>
-			    <a href="" class="arrow next"></a>
+			    <a href="/project/fourkites/" class="arrow prev"></a>
+			    <a href="http://theverygirl.com" target="_blank" class="visit">Visit this site</a>
+			    <a href="/project/bahrain-center-human-rights/" class="arrow next"></a>
 			</div>
 			
 		</div>

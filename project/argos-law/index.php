@@ -12,10 +12,10 @@
 			<div class="content">
 				<p class="description">Argos Law is a boutique law firm in Chicago. Law firm websites and their users follow some fairly strict rules, and Argos Law needed a site that followed these rules while still promoting a friendly, modern design and interface. Considering that Argos’ target audience tends to be on the go, an adaptive site for all devices was critical. The interface was designed in browser and tested on different devices so that the responsive design could be fine tuned. The result is a beautiful interface optimized for desktop, tablet and mobile users.</p>
 			</div>
-			<div class="visit"><a href="http://argoslaw.com" target="_blank">Visit this site</a></div>
 			<div class="project-nav">
-			    <a href="" class="arrow prev"></a>
-			    <a href="" class="arrow next"></a>
+			    <a href="/project/cappellos/" class="arrow prev"></a>
+			    <a href="http://argoslaw.com" target="_blank" class="visit">Visit this site</a>
+			    <a href="/project/fourkites/" class="arrow next"></a>
 			</div>
 			
 		</div>

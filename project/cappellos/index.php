@@ -12,10 +12,10 @@
 			<div class="content">
 				<p class="description">Cappello's is a gluten free, grain free gourmet food company located in Denver. The initial design of the site aimed primarily to express the company’s unique and edgy brand, but as online traffic and sales began to increase, a need emerged to create a more user-friendly purchasing experience. In the fall of 2013, I completely updated the site’s interface and design, positioning their products directly on the homepage and providing users with easy access to important food information on the products pages. In partnership with our good friends at bxCreative, we used the Drupal Commerce module to streamline UPS shipping integration and provide Cappello's with easy management of shipping and sales data.</p>
 			</div>
-			<div class="visit"><a href="https://cappellosglutenfree.com" target="_blank">Visit this site</a></div>
 			<div class="project-nav">
-			    <a href="" class="arrow prev"></a>
-			    <a href="" class="arrow next"></a>
+			    <a href="/project/emprego-ligado/" class="arrow prev"></a>
+			    <a href="https://cappellosglutenfree.com" target="_blank" class="visit">Visit this site</a>
+			    <a href="/project/argos-law/" class="arrow next"></a>
 			</div>
 			
 		</div>

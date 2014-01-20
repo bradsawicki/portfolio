@@ -446,43 +446,39 @@ input.error {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
 }
 
-.visit a {
-	color: #fff;
-	border-bottom: 1px solid #3a9cbd;
-}
-
-.visit a:hover {
-	border-color: #007397;
-}
-
-.role, .visit {
-    text-align: center;
-}
-
 .role {
+    text-align: center;
     color: #cce3ea;
 }
 
+.project-nav {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 .visit {
-    margin-bottom: 2em;
+    display: inline-block;
+    padding-bottom: 5px;
+	border-bottom: 1px solid #3a9cbd;
+	color: #fff;
     font-size: 30px;
 }
 
-.visit .btn {
-    font-size: 1.25em;
-    padding: 0.6em 1em 0.5em;
+.visit:hover {
+    color: #fff;
+	border-color: #007397;
 }
 
 .project-nav .arrow {
     display: block;
-    opacity: 0.7;
+    opacity: 0.6;
     position: fixed;
     top: 50%;
     left: 20px;
     width: 33px;
     height: 50px;
     margin-top: -25px;
-    background: url(/images/arrows.svg) no-repeat;
+    background: url(../images/arrows.svg) no-repeat;
     border: none;
 }
 
@@ -583,12 +579,15 @@ footer li {
 ========================================================****/
 
 @media all and (max-width: 1150px) {
-    .project-nav .arrow { left: 0; width: 40px; background-color: #3a9cbd; background-size: auto 65%; background-position: 8px 8px; }
-    .project-nav .next { left: auto; right: 0; background-position: -29px 8px; }
+    .project-nav { text-align: center; }
+    .project-nav .arrow { position: static; left: auto; right: auto; top: auto; display: inline-block; margin-top: 0; margin-bottom: -16px; }
+    .project-nav .prev { margin-right: 60px; margin-bottom: -16px; }
+    .project-nav .next { margin-left: 60px; }
 }
 
 @media all and (max-width: 800px) {
 	.hero h2 { padding: 0 10%; line-height: 1.2em; }
+	.main .title { font-size: 48px; }
 	.thumbs li { width: 47.5%; margin: 0 5% 0.75em 0; }
 	.thumbs li:nth-child(3n) { margin-right: 5%; }
 	.thumbs li:nth-child(2n) { margin-right: 0; }
@@ -620,10 +619,6 @@ footer li {
 	.thumbs li:nth-child(3n) { margin-right: 0; }
 	.thumbs li:nth-child(2n+1) { clear: none; }
 	.thumbs li:last-child { margin-bottom: 0; }
-/*
-	.thumbs p { margin-bottom: 0; }
-	.thumbs img { float: left; width: 42%; margin: 0 8% 0 0; }
-*/
     .thumbs .thumb { max-width: 360px; margin: 0 auto 1em; padding: 0 5%; }
 	.hero h1 { font-size: 40px; }
 	.hero h2 { font-size: 22px; padding: 0 5%; }
