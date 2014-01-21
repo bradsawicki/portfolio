@@ -15,7 +15,7 @@
 			<div class="project-nav">
 			    <a href="/project/cappellos/" class="arrow prev"></a>
 			    <a href="http://argoslaw.com" target="_blank" class="visit">Visit this site</a>
-			    <a href="/project/fourkites/" class="arrow next"></a>
+			    <a href="/project/the-everygirl/" class="arrow next"></a>
 			</div>
 			
 		</div>

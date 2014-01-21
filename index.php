@@ -25,20 +25,25 @@
 					<h4>Argos Law</h4>
 					<p>UI / UX, Responsive Web Design, Drupal Development</p>
 				</a></li>
-				<li><a href="/project/fourkites/">
-					<div class="thumb"><img src="images/thumb-fourkites.png" alt="Fourkites" /></div>
-					<h4>Fourkites</h4>
-					<p>Responsive Front-End Development</p>
-				</a></li>
 				<li><a href="/project/the-everygirl/">
 					<div class="thumb"><img src="images/thumb-everygirl.png" alt="The Everygirl" /></div>
 					<h4>The Everygirl</h4>
+					<p>Responsive Front-End Development</p>
+				</a></li>
+				<li><a href="/project/fourkites/">
+					<div class="thumb"><img src="images/thumb-fourkites.png" alt="Fourkites" /></div>
+					<h4>Fourkites</h4>
 					<p>Responsive Front-End Development</p>
 				</a></li>
 				<li><a href="/project/bahrain-center-human-rights/">
 					<div class="thumb"><img src="images/thumb-bahrain.png" alt="Bahrain Center for Human Rights" /></div>
 					<h4>Bahrain Center for Human Rights</h4>
 					<p>UI / UX, Responsive Web Design, Drupal Development</p>
+				</a></li>
+				<li><a href="/project/emprego-ligado/">
+					<div class="thumb"><img src="images/thumb-emprego.png" alt="Emprego Ligado" /></div>
+					<h4>Emprego Ligado</h4>
+					<p>UI / UX, Web Design / Front-End Development</p>
 				</a></li>
 <!--
 				<li><a href="/project/gibon-shop/">
@@ -47,11 +52,6 @@
 					<p>Branding / Web Design / Drupal Development</p>
 				</a></li>
 -->
-				<li><a href="/project/emprego-ligado/">
-					<div class="thumb"><img src="images/thumb-emprego.png" alt="Emprego Ligado" /></div>
-					<h4>Emprego Ligado</h4>
-					<p>UI / UX, Web Design / Front-End Development</p>
-				</a></li>
 			</ul>
 		</div>
 	</section>
