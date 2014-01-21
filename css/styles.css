@@ -337,13 +337,12 @@ input.error {
 
 .hero h1 {
 	margin-bottom: 0.25em;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
 
 .hero h2 {
-/* 	margin-bottom: 1em; */
 	font-weight: 400;
-	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
 
 .hero p {
@@ -404,6 +403,7 @@ input.error {
 	margin-bottom: 1em;
 	margin-bottom: 16px;
 	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
 
 /*

@@ -61,7 +61,7 @@
 			<h3>Brad SaWho?</h3>
 			<p>The seeds of my computer-dependent career began with a few simple DOS commands and a minor obsession with King's Quest I thru V. Twenty years, a few college Web courses and countless days/weeks/months spent behind the screen later, I now call myself a Web Developer with Web Design skills.
 			<p>I've had the pleasure of taking part in the growth of a web firm from 3 guys in a basement to a dozen workers in a West Loop loft to 40 employees in an office. In October 2011, I set off to start my own creative agency in partnership with a few talented friends. Our goal: Utilize the web to make the world a better place.</p>
-			<p>When I'm not getting off on great design and clean code I partake in the following: Playing music, watching music, planning our wedding in Sweden, searching for the perfect burrito (Taco Burrito Express #3), hugging trees and occasionally dropping blogs here.</p>
+			<p>When I'm not getting off on great design and clean code I partake in the following: Playing music, watching music, visiting friends and family in Sweden, searching for the perfect burrito (Taco Burrito Express #3), hugging trees and floating down rivers.</p>
 		</div>	
 	</section>
 
