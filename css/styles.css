@@ -22,8 +22,8 @@ body {
 	left: 0;
 	z-index: 1;
 	width: 100%;
-	height: 100%;
-	background: #00b8d9 url(../images/bg-blue.jpg) no-repeat top center;
+	height: 110%;
+	background: #00bfef url(../images/bg-blue.jpg) no-repeat center 114px;
 }
 
 .header, section, footer {
@@ -51,8 +51,7 @@ body {
 
 .main {
 	padding-top: 2.625em;
-	background: #60b7d7;
-	background: #00b8d9;
+	background: #00bfef;
 	box-shadow: inset 0 0.5em 1em rgba(0,0,0,0.1);
 	color: #fff;
 }
@@ -122,8 +121,8 @@ a {
 }
 
 a:hover {
-	color: #eb634c;
-	border-bottom: 1px solid #353430;
+	color: #353430;
+	border-bottom: 1px solid #fecb0d;
 }
 
 .btn {
@@ -137,21 +136,13 @@ a:hover {
 	line-height: 1em;
 	font-weight: 500;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
-	background: #f15b42;
+	background: #f75728;
 }
 
 .btn:hover {
-	background: #a4301d;
+	background: #e94819;
 	color: #fff;
 	border-bottom: none;
-}
-
-.blue {
-	background: #007397;
-}
-
-.blue:hover {
-	background: #005b77;
 }
 
 .ctr {
@@ -261,6 +252,7 @@ a:hover {
 
 .modal .close:hover {
 	border: none;
+	color: #f75728;
 }
 
 .modal h3 {
@@ -273,7 +265,11 @@ a:hover {
 }
 
 .modal a {
-	border-bottom: 1px solid #3a9cbd;
+	border-bottom: 1px solid #0088bb;
+}
+
+.modal a:hover {
+	border-color: #fecb0d;
 }
 
 .form-item {
@@ -306,7 +302,7 @@ button {
 	cursor: pointer;
 	width: 100%;
 	padding: 0.4em 1em;
-	background: #f15b42;
+	background: #f75728;
 	border: none;
 	border-radius: 5px;
 	color: #fff;
@@ -319,11 +315,11 @@ button {
 }
 
 button:hover {
-	background: #a4301d;
+	background: #e94819;
 }
 
 input.error {
-    border-color: #ff4610;
+    border-color: #f75728;
 }
 
 
@@ -381,6 +377,7 @@ input.error {
 
 .thumbs a:hover {
 	border: none;
+	color: #f75728;
 }
 
 .thumbs .thumb {
@@ -405,19 +402,6 @@ input.error {
 	text-align: center;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
-
-/*
-.top .title:after {
-    content: "";
-    position: absolute;
-    bottom: -0.5em;
-    left: 50%;
-    width: 320px;
-    height: 1px;
-    margin-left: -175px;
-    background: #3a9cbd;
-}
-*/
 
 .bchr .main .title {
     max-width: 800px;
@@ -450,7 +434,7 @@ input.error {
 
 .role {
     text-align: center;
-    color: #cce3ea;
+    color: #ccf2fc;
 }
 
 .project-nav {
@@ -461,14 +445,14 @@ input.error {
 .visit {
     display: inline-block;
     padding-bottom: 5px;
-	border-bottom: 1px solid #3a9cbd;
+	border-bottom: 1px solid #0088bb;
 	color: #fff;
     font-size: 30px;
 }
 
 .visit:hover {
     color: #fff;
-	border-color: #007397;
+	border-color: #345069;
 }
 
 .project-nav .arrow {
@@ -515,6 +499,11 @@ input.error {
 	font-size: 36px;
 }
 
+
+/**========================================================
+    ABOUT
+========================================================**/
+
 .about {
 	padding: 2.625em 0;
 	background: transparent;
@@ -546,7 +535,6 @@ input.error {
 }
 
 
-
 /**========================================================
     FOOTER
 ========================================================**/
@@ -574,11 +562,9 @@ footer li {
 }
 
 
-
-
-
-/** MEDIA QUERIES
-========================================================****/
+/**========================================================
+    MQs
+========================================================**/
 
 @media all and (max-width: 1150px) {
     .project-nav { text-align: center; }

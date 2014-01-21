@@ -42,7 +42,7 @@ $(function(){
     		$.post('/php/mail.php', data, function(response){
     			// do funky stuff here, like fade out the form and show a thank you message
     			$('form').fadeOut(500, function(){
-    				$(this).html('<h2>Thanks BRO.</h2>');
+    				$(this).html('<h2>Talk to you soon!</h2>');
     				$(this).fadeIn(500);
     			})
     		});

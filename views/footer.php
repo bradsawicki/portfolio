@@ -19,19 +19,19 @@
 		<form action="">
 			<div class="form-item">
 				<label for="name">Name</label>
-				<input type="text" id="name" />
+				<input type="text" name="name" id="name" />
 			</div>
 			<div class="form-item">
 				<label for="email">Email</label>
-				<input type="email" id="email" />
+				<input type="email" name="email" id="email" />
 			</div>
 			<div class="form-item">
 				<label for="band">Favorite Band</label>
-				<input type="text" id="band" />
+				<input type="text" name="band" id="band" />
 			</div>
 			<div class="form-item">
 				<label for="message">Message</label>
-				<textarea id="message"></textarea>
+				<textarea name="message" id="message"></textarea>
 			</div>
 			<button>Send</button>
 		</form>
