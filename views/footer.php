@@ -1,4 +1,4 @@
-	<footer class="cf">
+	<footer class="footer">
 		<div class="wrapper cf">
 			<p>&copy;<?php echo date('Y'); ?> Brad Sawicki / Chicago, IL 60622 / <a href="mailto:hello@bradsawicki.com">hell0@bradsawicki.com</a></p>
 			<ul class="cf">
