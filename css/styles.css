@@ -625,7 +625,7 @@ input.error {
 }
 
 @media all and (max-width: 620px) {
-    .home { background-size: auto 80%; }
+    .home { background-size: cover; }
     .modal .wrapper { margin-top: 1em; padding: 1.25em 1em; }
 	.hero h1 { font-size: 48px; }
 	.hero h2 { font-size: 27px; }
