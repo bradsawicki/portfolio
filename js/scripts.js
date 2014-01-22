@@ -3,6 +3,10 @@ $(function(){
 	$('.contact').on('click',function(e){
 		e.preventDefault();
 		$('.modal').addClass('show');
+		var width = $(window).width();
+		if (width < 700) {
+		    $("html, body").animate({ scrollTop: 0 }, 0);
+		}
 	});
 
 	$('.close, .modal-bg').on('click',function(e){

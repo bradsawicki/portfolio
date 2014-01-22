@@ -618,6 +618,7 @@ footer li {
 @media all and (max-width: 500px) {
     .wrapper { width: 90%; }
     p { font-size: 18px; }
+    .modal p { font-size: 16px; line-height: 1.5em; }
     .hero { padding: 32px 0; }
 	.logo { width: 5em; }
 	.main { padding-top: 32px; }
