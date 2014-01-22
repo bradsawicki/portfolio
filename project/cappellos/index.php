@@ -14,7 +14,7 @@
 			</div>
 			<div class="project-nav">
 			    <a href="/project/emprego-ligado/" class="arrow prev"></a>
-			    <a href="https://cappellosglutenfree.com" target="_blank" class="visit">Visit this site</a>
+			    <a href="https://cappellosglutenfree.com" target="_blank" class="visit">Visit Site <i class="icon"></i></a>
 			    <a href="/project/argos-law/" class="arrow next"></a>
 			</div>
 			

@@ -13,7 +13,7 @@
 <div class="modal">
 	<div class="modal-bg"></div>
 	<div class="wrapper">
-		<a href="" class="ss-icon ss-standard close">delete</a>
+		<a href="" class="close"></a>
 		<h3>Contact</h3>
 		<p>Looking to get a new Web project started? Want to chat about why Led Zeppelin is the best band ever? Drop me a line and I'll get back to you very soon. <a href="mailto:hello@bradsawicki.com">Email me</a> or fill out the form.</p>
 		<form action="">
@@ -39,10 +39,6 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!--
-<script src="css/fonts/ss-social.js"></script>
-<script src="css/fonts/ss-standard.js"></script>
--->
 <script src="/js/scripts.js"></script>
 </body>
 </html>

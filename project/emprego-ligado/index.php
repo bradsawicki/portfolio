@@ -14,7 +14,7 @@
 			</div>
 			<div class="project-nav">
 			    <a href="/project/bahrain-center-human-rights/" class="arrow prev"></a>
-			    <a href="http://empregoligado.com.br" target="_blank" class="visit">Visit this site</a>
+			    <a href="http://empregoligado.com.br" target="_blank" class="visit">Visit Site <i class="icon"></i></a>
 			    <a href="/project/cappellos/" class="arrow next"></a>
 			</div>
 			

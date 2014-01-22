@@ -1,10 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, .nav, output, ruby, section, summary, time, mark, audio, video { margin: 0;	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, .nav, section { display: block; } ol, ul { list-style: none; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; }
-* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } img { max-width: 100%; height: auto; vertical-align: middle; }
-
-/*
-yellow: fdc210
-red: ff4610
-*/
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, .nav, output, ruby, section, summary, time, mark, audio, video { margin: 0;	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, .nav, section { display: block; } ol, ul { list-style: none; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; } img { max-width: 100%; height: auto; vertical-align: middle; }
 
 body {
 	background: #efefef;
@@ -247,12 +241,16 @@ a:hover {
 	position: absolute;
 	top: 0.75em;
 	right: 0.75em;
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(../images/sprite.svg) no-repeat 0 -26px;
 	border: none;
 }
 
 .modal .close:hover {
 	border: none;
-	color: #f75728;
+	opacity: 0.5;
 }
 
 .modal h3 {
@@ -444,16 +442,34 @@ input.error {
 }
 
 .visit {
-    display: inline-block;
-    padding-bottom: 5px;
-	border-bottom: 1px solid #0088bb;
+    position: relative;
+	display: inline-block;
+	padding: 12px 42px 12px 16px;
+	border-bottom: none;
+	border-radius: 5px;
 	color: #fff;
-    font-size: 30px;
+	font-family: 'maple-web', 'Helvetica', arial, sans-serif;
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: 500;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+	background: #0088bb;
 }
 
 .visit:hover {
-    color: #fff;
-	border-color: #345069;
+	background: #345069;
+	color: #fff;
+	border-bottom: none;
+}
+
+.visit .icon {
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    width: 27px;
+    height: 21px;
+    background: url(../images/sprite.svg) no-repeat;
+    background-size: 22px auto;
 }
 
 .project-nav .arrow {
@@ -569,8 +585,8 @@ footer li {
 
 @media all and (max-width: 1150px) {
     .project-nav { position: relative; }
-    .project-nav .arrow { position: absolute; top: -10px; display: inline-block; margin-top: 0; }
-    .project-nav .prev { margin-right: 60px; margin-bottom: -16px; }
+    .project-nav .arrow { position: absolute; top: -2px; display: inline-block; margin-top: 0; }
+    .project-nav .prev { margin-right: 60px; }
     .project-nav .next { margin-left: 60px; }
 }
 

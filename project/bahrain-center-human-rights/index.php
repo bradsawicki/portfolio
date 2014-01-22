@@ -14,7 +14,7 @@
 			</div>
 			<div class="project-nav">
 			    <a href="/project/fourkites/" class="arrow prev"></a>
-			    <a href="http://bahrainrights.org" target="_blank" class="visit">Visit this site</a>
+			    <a href="http://bahrainrights.org" target="_blank" class="visit">Visit Site <i class="icon"></i></a>
 			    <a href="/project/emprego-ligado/" class="arrow next"></a>
 			</div>
 			
