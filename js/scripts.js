@@ -49,6 +49,10 @@ $(function(){
     				$(this).html('<h2>Talk to you soon!</h2>');
     				$(this).fadeIn(500);
     			})
+    			var width = $(window).width();
+        		if (width < 700) {
+        		    $("html, body").animate({ scrollTop: 0 }, 0);
+        		}
     		});
 		
 		}
