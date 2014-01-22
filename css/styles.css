@@ -1,7 +1,7 @@
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, .nav, output, ruby, section, summary, time, mark, audio, video { margin: 0;	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, .nav, section { display: block; } ol, ul { list-style: none; } .cf:before, .cf:after { content: " "; display: table; } .cf:after {clear: both;} .cf { *zoom: 1; } img { max-width: 100%; height: auto; vertical-align: middle; }
 
 body {
-	background: #efefef;
+	background: #00bfef url(../images/bg-blue.jpg) fixed no-repeat center 104px;
 	color: #353430;
 	font: 400 1em/1.5em 'elena-web-basic', Georgia, serif;
 }
@@ -9,16 +9,6 @@ body {
 /**========================================================
     LAYOUT
 ========================================================**/
-
-.bg {
-	position: fixed;
-	top: -12px;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-	height: 110%;
-	background: #00bfef url(../images/bg-blue.jpg) no-repeat center 114px;
-}
 
 .header, section, footer {
 	position: relative;
@@ -165,6 +155,16 @@ a:hover {
 	top: 0;
 	left: 0;
 	width: 80px;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+}
+
+.logo:hover img {
+	top: -2px;
+	left: -2px;
+	width: 84px;
 }
 
 .logo h1 {

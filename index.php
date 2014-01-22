@@ -2,7 +2,6 @@
 <?php $body_class = "home"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/head.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
-<div class="bg"></div>
 
 	<section id="hero" class="hero">
 		<div class="wrapper cf">
