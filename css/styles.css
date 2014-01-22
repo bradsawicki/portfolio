@@ -624,12 +624,13 @@ input.error {
     .bottom .btn { margin-top: 0.5em; }
 }
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 640px) {
     .home { background-size: auto 600px; }
     .modal .wrapper { margin-top: 1em; padding: 1.25em 1em; }
 	.hero h1 { font-size: 48px; }
 	.hero h2 { font-size: 27px; }
     .bottom .btn { display: block; margin: 0.5em 0 0; }
+	.about .wrapper { margin: 0 auto; padding: 0 24px 20px; }
     .role { line-height: 1.4em; }
 }
 
@@ -649,7 +650,6 @@ input.error {
     .thumbs .thumb { max-width: 360px; margin: 0 auto 1em; padding: 0 5%; }
 	.hero h1 { font-size: 40px; }
 	.hero h2 { font-size: 22px; padding: 0 5%; }
-	.about .wrapper { margin: 0 auto; padding: 0 24px 20px; }
 	.about h3 { font-size: 32px; margin-bottom: 0.25em; }
     .project-nav { margin-bottom: 42px; }
     .project-nav .arrow { left: 0; }
