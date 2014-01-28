@@ -10,7 +10,7 @@
 			<p class="role">Front-end Development</p>
 			<div class="pic"><img src="/images/pic-desktop-keenan-wells.jpg" alt="Keenan Wells Design" /></div>
 			<div class="content">
-				<p class="description">Keenan Wells is a Chicago Web Designer, Illustrator and old friend of mine. We've collaborated on many web projects, so it was natural to help him out with the development of his portfolio site. We strayed from using a CMS and went with static site of good ol' hand written clean code.</p>
+				<p class="description">Keenan Wells is a Chicago Web Designer, Illustrator and old friend of mine. We've collaborated on many web projects, so it was natural to help him out with the development of his portfolio site. We strayed from using a CMS and went with a static site of good ol' hand written clean code.</p>
 			</div>
 			<div class="project-nav">
 			    <a href="/project/cappellos/" class="arrow prev"></a>
