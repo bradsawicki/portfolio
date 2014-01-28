@@ -15,7 +15,7 @@
 			<div class="project-nav">
 			    <a href="/project/cappellos/" class="arrow prev"></a>
 			    <a href="http://fenderreissue.com" target="_blank" class="visit">Visit Site <i class="icon"></i></a>
-			    <a href="/project/argoslaw/" class="arrow next"></a>
+			    <a href="/project/argos-law/" class="arrow next"></a>
 			</div>
 			
 		</div>
