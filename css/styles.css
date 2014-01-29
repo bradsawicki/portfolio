@@ -592,6 +592,10 @@ input.error {
     .project-nav .next { margin-left: 60px; }
 }
 
+@media all and (max-width: 1040px) {
+    .about { background: #00bfef; }
+}
+
 @media all and (max-width: 1010px) {
     .bottom p { font-size: 32px; }
     .bottom .btn { font-size: 32px; }
