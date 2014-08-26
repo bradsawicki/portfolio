@@ -1,6 +1,6 @@
 	<footer class="footer">
 		<div class="wrapper cf">
-			<p>&copy;<?php echo date('Y'); ?> Brad Sawicki / Chicago, IL 60622 / <a href="mailto:hello@bradsawicki.com">hell0@bradsawicki.com</a></p>
+			<p>&copy;<?php echo date('Y'); ?> Brad Sawicki / Chicago, IL 60622 / <a href="mailto:hello@bradsawicki.com">hello@bradsawicki.com</a></p>
 			<ul class="cf">
 				<li><a href="https://twitter.com/BradSawicki" target="_blank" class="ss-icon ss-social-circle">twitter</a></li>
 				<li><a href="http://dribbble.com/bradsawicki" target="_blank" class="ss-icon ss-social-circle">dribbble</a></li>
